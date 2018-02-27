@@ -4,8 +4,13 @@
 	<link rel="shortcut icon" type="image/ico" href="favicon.ico">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <style>
+<<<<<<< HEAD
 	a, th, td {font-family: 'Roboto', sans-serif;}
 th, td {padding: 10px}
+=======
+    h3 {color: white;}
+th, td {padding: 10px; font-family: "Georgia", serif}
+>>>>>>> 1c4a5e1b3649f814aadcd2ad97bf63b139ed0c07
 #myTable {
 	width: 100%;
 	overflow: scroll;
@@ -34,15 +39,22 @@ th {font-size: 40pt;}
 	<tr>
 		<td><a href="https://clever.com/oauth/authorize?response_type=code&state=0a7a10fa4d3af8c94a138a2ccda3a246e9ebf01629af71f6a086e03fd6519793&redirect_uri=https%3A%2F%2Fclever.com%2Fin%2Fauth_callback&client_id=4c63c1cf623dce82caac&confirmed=true&channel=clever&new_login_flow=true&district_id=55dcb7fd71fafb01000060e0">CLEVER</a></td>
 		<td><a href="https://habitica.com">HABITICA</a></td>
+        <td><a href="https://sites.google.com/site/playfunblocked/">FUNBLOCKED</a></td>
 	</tr>
 	<tr>
 		<td><a href="https://hac40.eschoolplus.powerschool.com/HAC4_001/Account/LogOn?ReturnUrl=%2fHAC4_001%2f">HOME ACCESS CENTER</a></td>
 		<td><a href="https://github.com/">GITHUB</a></td>
 	</tr>
 </table>
-
-<br>
-<h6>Want to add a new link? E-Mail me at <b>hedgy134117@hotmail.com</b></h6>
+<br />
+<h6 style="color:silver">Want to add a new link? E-Mail me at <b>hedgy134117@hotmail.com</b></h6>
+<br />
+<form style="color:white">
+    Website:
+    <input type="text" name="website">
+    <input type="submit" value="Submit" onclick="document.getElementById('submitForm').style.display='block'">
+</form>
+<h3 id="submitForm" style="display:none" style="color:white">input failed</h3>
 <!-- ORIGINAL STYLE
 <h1>SCHOOL</h1>
 <br>
@@ -62,4 +74,3 @@ th {font-size: 40pt;}
 
 </body>
 </head>
-</html>
