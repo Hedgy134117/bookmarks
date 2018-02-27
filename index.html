@@ -68,6 +68,21 @@ p {
 <h2>WELCOME TO MY WEBSITE</h2>
 <p>Welcome to the bookmarks website! It has various bookmarks for various uses.
 More categories and websites to be added in the future!</p>
+
+<br />
+
+<h2 style="font-size:200%">Current time is:</h2>
+<p id="time" style="font-size:180%"></p>
+
+<br />
+
+<script>
+var timeVar = setInterval(timer, 1000)
+function timer() {
+	var d = new Date();
+	document.getElementById("time").innerHTML = d.toLocaleTimeString();
+}
+</script>
 <!-- ORIGINAL STYLE
 <h1>SCHOOL</h1>
 <br>
